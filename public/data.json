@@ -4,20 +4,42 @@
             {
                 "name": "Batman",
                 "desc": "Batman is the superhero protector of Gotham City, a tortured, brooding vigilante dressed as a bat who fights against evil and strikes fear into the hearts of criminals everywhere.",
-                "img": "batman.jpeg"
+                "img": "batman.jpeg",
+                "url_fan_page": "https://dc.fandom.com/wiki/Batman_(Bruce_Wayne)"
             },
             {
                 "name": "Wonder Woman",
                 "desc": "Princess Diana is Wonder Woman, the daughter of Hippolyta, Queen of the Amazons, and Zeus, the mightiest of the Gods of Olympus.",
-                "img": "wonderwoman.jpg"
+                "img": "wonderwoman.jpg",
+                "url_fan_page": "https://dc.fandom.com/wiki/Wonder_Woman"
             },
             {
                 "name": "Superman",
                 "desc": "Superman, also known as the Man of Steel. His abilities include incredible super-strength, super-speed, invulnerability, freezing breath, flight, and heat-vision.",
-                "img": "superman.jpg"
+                "img": "superman.jpg",
+                "url_fan_page": "https://dc.fandom.com/wiki/Superman"
             }
         ],
-        "marvel": []
+        "marvel": [
+            {
+                "name": "Gambit",
+                "desc": "Gambit belongs to a subspecies of humans called mutants, who are born with superhuman abilities. Gambit has the ability to mentally create, control, and manipulate pure kinetic energy to his desire.",
+                "img": "gambit.png",
+                "url_fan_page": "https://marvel.fandom.com/wiki/Remy_LeBeau_(Earth-616)"
+            },
+            {
+                "name": "Wolverine",
+                "desc": "From the northern wilderness of Canada hails one of the gruffest, most irascible, totally cynical and brooding member of the X-Men ever to grace the team with his presence.",
+                "img": "wolverine.jpg",
+                "url_fan_page": "https://marvel.fandom.com/wiki/Wolverine"
+            },
+            {
+                "name": "Hulk",
+                "desc": "In his comic book appearances, the character is primarily represented by the alter ego Hulk, a green-skinned, hulking and muscular humanoid possessing a limitless degree of physical strength.",
+                "img": "hulk.png",
+                "url_fan_page": "https://marvel.fandom.com/wiki/Hulk"
+            }
+        ]
     },
     "cities": [
         {
