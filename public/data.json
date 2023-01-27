@@ -1,0 +1,27 @@
+{
+    "heroes": {
+        "dc": [
+            {
+                "name": "Batman",
+                "desc": "Batman is the superhero protector of Gotham City, a tortured, brooding vigilante dressed as a bat who fights against evil and strikes fear into the hearts of criminals everywhere.",
+                "img": "batman.jpeg"
+            },
+            {
+                "name": "Wonder Woman",
+                "desc": "Princess Diana is Wonder Woman, the daughter of Hippolyta, Queen of the Amazons, and Zeus, the mightiest of the Gods of Olympus.",
+                "img": "wonderwoman.jpg"
+            },
+            {
+                "name": "Superman",
+                "desc": "Superman, also known as the Man of Steel. His abilities include incredible super-strength, super-speed, invulnerability, freezing breath, flight, and heat-vision.",
+                "img": "superman.jpg"
+            }
+        ],
+        "marvel": []
+    },
+    "cities": [
+        {
+            "name": "hee"
+        }
+    ]
+}
