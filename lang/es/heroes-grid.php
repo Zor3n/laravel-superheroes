@@ -9,4 +9,5 @@ return [
 
     'card_button' => 'Página de fans',
 
+    'not_found' => '¡No se encontraron registros!',
 ];

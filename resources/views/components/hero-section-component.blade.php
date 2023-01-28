@@ -18,7 +18,7 @@
                             <ul>
                                 <li class="is-active"><a href=" {{ url('/') }}" class="has-text-info">{{ __('hero-section.home') }}</a></li>
                                 <li><a href="#heroes-grid" class="has-text-white">{{ __('hero-section.characters') }}</a></li>
-                                <li><a href="" class="has-text-white">{{ __('hero-section.cities') }}</a></li>
+                                <li><a href="#cities-grid" class="has-text-white">{{ __('hero-section.cities') }}</a></li>
                                 <li><a href="" class="has-text-white">{{ __('hero-section.about_us') }}</a></li>
                                 <li><a href="" class="has-text-white">{{ __('hero-section.contact') }}</a></li>
                             </ul>

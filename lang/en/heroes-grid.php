@@ -9,4 +9,5 @@ return [
 
     'card_button' => 'Go to Fan Page',
 
+    'not_found' => 'No records found!',
 ];

@@ -22,6 +22,7 @@
 <body class="antialiased">
     <x-hero-section-component></x-hero-section-component>
     <x-heroes-grid :dc="$dc_heroes" :marvel="$marvel_heroes"></x-heroes-grid>
+    <x-cities-grid :cit="$cities"></x-cities-grid>
 
     <script src="js/bulma.js"></script>
 </body>

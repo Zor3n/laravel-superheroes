@@ -43,7 +43,9 @@
                     </div>
                 @endforeach
             @else
-                No records found!
+                <div class="my-6">
+                    <p>{{ __('heroes-grid.not_found') }}</p>
+                </div>
             @endif
 
         </div>
@@ -62,7 +64,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container pb-6">
         <div class="columns is-multiline is-centered mb-0">
             @if (count($marvel_heroes) > 0)
                 @foreach ($marvel_heroes as $hero)
@@ -87,7 +89,9 @@
                     </div>
                 @endforeach
             @else
-                No records found!
+                <div class="my-6">
+                    <p>{{ __('heroes-grid.not_found') }}</p>
+                </div>
             @endif
         </div>
     </section>

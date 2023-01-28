@@ -9,7 +9,7 @@ return [
 
     'title' => 'Tabla de Superheroes',
     'subtitle' => '¡Está es una página para superheroes!',
-    'button' => 'Ir al videos',
+    'button' => 'Ir al video',
 
     'bottom' => 'Aprende más aquí abajo',
 ];
