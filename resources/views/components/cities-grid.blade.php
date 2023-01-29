@@ -16,7 +16,7 @@
     <div class="columns is-multiline is-centered mb-0">
         @if (count($cities) > 0)
             @foreach ($cities as $city)
-                <div class="column is-6">
+                <div class="column is-4">
                     <div class="card is-shady">
                         <div class="card-image">
                             <a href="{{ $city['url_fan_page'] }}" target="_blank" rel="noopener noreferrer">
