@@ -16,11 +16,16 @@
                     <div class="navbar-end">
                         <div class="tabs is-right">
                             <ul>
-                                <li class="is-active"><a href=" {{ url('/') }}" class="has-text-info">{{ __('hero-section.home') }}</a></li>
-                                <li><a href="#heroes-grid" class="has-text-white">{{ __('hero-section.characters') }}</a></li>
-                                <li><a href="#cities-grid" class="has-text-white">{{ __('hero-section.cities') }}</a></li>
-                                <li><a href="" class="has-text-white">{{ __('hero-section.about_us') }}</a></li>
-                                <li><a href="" class="has-text-white">{{ __('hero-section.contact') }}</a></li>
+                                <li class="is-active"><a href=" {{ url('/') }}"
+                                        class="has-text-info">{{ __('hero-section.home') }}</a></li>
+                                <li><a href="#heroes-grid"
+                                        class="has-text-white">{{ __('hero-section.characters') }}</a></li>
+                                <li><a href="#cities-grid" class="has-text-white">{{ __('hero-section.cities') }}</a>
+                                </li>
+                                <li><a href="#about-us" class="has-text-white">{{ __('hero-section.about_us') }}</a>
+                                </li>
+                                <li><a href="#contact-us" class="has-text-white">{{ __('hero-section.contact') }}</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -38,15 +43,16 @@
                 </div>
                 <div class="column is-6 is-offset-1">
                     <h1 class="title is-2">
-                        {{__('hero-section.title')}}
+                        {{ __('hero-section.title') }}
                     </h1>
                     <h2 class="subtitle is-4">
-                        {{__('hero-section.subtitle')}}
+                        {{ __('hero-section.subtitle') }}
                     </h2>
                     <br>
                     <p class="has-text-centered">
-                        <a class="button is-medium is-info is-outlined">
-                            {{__('hero-section.button')}}
+                        <a class="button is-medium is-info is-outlined" href="https://youtu.be/IQFcpuYi8L4"
+                            target="_blank">
+                            {{ __('hero-section.button') }}
                         </a>
                     </p>
                 </div>
@@ -57,7 +63,7 @@
         <div class="container">
             <div class="tabs is-centered">
                 <ul>
-                    <li><a>{{__('hero-section.bottom')}}</a></li>
+                    <li><a>{{ __('hero-section.bottom') }}</a></li>
                 </ul>
             </div>
         </div>

@@ -23,6 +23,9 @@
     <x-hero-section-component></x-hero-section-component>
     <x-heroes-grid :dc="$dc_heroes" :marvel="$marvel_heroes"></x-heroes-grid>
     <x-cities-grid :cit="$cities"></x-cities-grid>
+    <x-about-us></x-about-us>
+    <x-contact></x-contact>
+    <x-footer></x-footer>
 
     <script src="js/bulma.js"></script>
 </body>
