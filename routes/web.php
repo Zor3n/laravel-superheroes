@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\DataController;
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\App;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,11 +16,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [DataController::class, 'HeroesData']);
 
-Route::group(['prefix' => '{locale}'], function(){
+Route::group(['prefix' => '{locale?}'], function($locale = null){
 
     Route::get('/', [DataController::class, 'HeroesData'])->middleware('localization');
+    // Route::get('/', [DataController::class, 'HeroesData']);
 
-    Route::get('viewers', function(){
+    Route::get('viewers', function($locale = 'en'){
+        // App::setLocale($locale);
         return view('viewers');
     })->middleware('localization');
 });

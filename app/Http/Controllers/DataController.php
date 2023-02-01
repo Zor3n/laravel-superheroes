@@ -9,8 +9,9 @@ class DataController extends Controller
 {
     public function HeroesData($locale = 'en')
     {
+        // return $locale;
         try {
-            // App::setLocale('es');
+            // App::setLocale($locale);
             $file = json_decode(file_get_contents(public_path() . '/data.json'), true);
             $dc_heroes = $file['heroes']['dc'];
             $marvel_heroes = $file['heroes']['marvel'];
