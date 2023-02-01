@@ -15,3 +15,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [DataController::class, 'HeroesData']);
+
+Route::group(['prefix' => '{locale}'], function(){
+
+    Route::get('/', [DataController::class, 'HeroesData'])->middleware('localization');
+
+    Route::get('viewers', function(){
+        return view('viewers');
+    })->middleware('localization');
+});
+

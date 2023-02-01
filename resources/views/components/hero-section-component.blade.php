@@ -26,6 +26,10 @@
                                 </li>
                                 <li><a href="#contact-us" class="has-text-white">{{ __('hero-section.contact') }}</a>
                                 </li>
+                                <li><a href="{{ url(App::getLocale(), 'viewers') }}" class="has-text-white">{{ __('Viewers') }}</a>
+                                </li>
+                                <li><a href="{{ url(App::getLocale() == 'es' ? 'en':'es') }}" class="has-text-white">{{ App::getLocale() == 'es' ? 'en':'es' }}</a>
+                                </li>
                             </ul>
                         </div>
                     </div>

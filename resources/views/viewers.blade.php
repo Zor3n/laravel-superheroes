@@ -1,0 +1,1 @@
+<div>{{ __('hero-section.title') }}</div>

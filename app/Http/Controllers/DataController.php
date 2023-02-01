@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\App;
 
 class DataController extends Controller
 {
-    public function HeroesData()
+    public function HeroesData($locale = 'en')
     {
         try {
             // App::setLocale('es');
